@@ -1,0 +1,3 @@
+*Rest Parameter(...) စုစည်း
+
+-Function တစ်ခုထဲကို ပေးလိုက်တဲ့ Arguments တွေကို Array တစ်ခုအဖြစ် စုစည်းပေးတဲ့ Feature

@@ -1,0 +1,26 @@
+*Template Literals
+
+-String တွေကို ရေးသားတဲ့အခါ ပိုမိုလွယ်ကူပြီး အဆင်ပြေအောင် အသုံးပြုတဲ့ နည်းလမ်း
+ String ထဲမှာ variable တွေ၊ expression တွေ ထည့်ချင်တဲ့အခါ အသုံး
+
+-${ } = Interpolation
+ ``   = Backticks
+
+-let name = "Aung Aung";
+ console.log("Hello " + name);
+
+ let text = `Hello World`;
+ console.log(text);-
+ 
+ let name = "Aung Aung";
+ console.log(`Hello ${name}`);
+
+-Syntax	အဓိပ္ပာယ်
+ ` `	Template Literal ရေးဖို့
+ ${}	Variable / Expression ထည့်ဖို့
+ +	Normal String တွေ ပေါင်းဖို့
+
+-(1) Variable တွေကို String ထဲမှာ လွယ်လွယ်ကူကူ ထည့်နိုင်တယ်
+ (2) String ထဲမှာ Calculation လုပ်နိုင်တယ်
+ (3) Multi-line String ရေးနိုင်တယ်
+ (4) HTML ကို Dynamic ပြုလုပ်ပြီး ရေးနိုင်တယ်

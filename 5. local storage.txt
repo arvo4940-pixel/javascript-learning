@@ -1,0 +1,20 @@
+*Local storage
+
+-Local storage allows a website to save data on the user's computer or phone.
+
+-that data stays saved even after close the browser.
+
+-Why do we use Local Storage?
+	We use it to save information such as:
+	- User preferences
+	- Shopping cart items
+	- To-do list tasks
+	- Username or other non-sensitive settings
+	- Game scores
+
+-important Local Storage methods
+	-localStorage.setItem("username", "Alex");
+	-localStorage.getItem("username");
+	-localStorage.removeItem("username");
+	-localStorage.clear(); //clear all
+

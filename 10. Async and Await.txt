@@ -1,0 +1,4 @@
+*Async and Await
+
+-async ဆိုတာ JavaScript မှာ Function တစ်ခုကို Asynchronous Function အဖြစ် သတ်မှတ်ပေး
+-await က Promise ရဲ့ result ကို ရလာတဲ့အထိ စောင့်

@@ -1,0 +1,15 @@
+*Document Object Model (DOM)
+
+-What is DOM?
+	-connection of HTML and javascrip
+	-DOM Interface ( HTML က tag တွေကို javascrip မှာ object ဖြစ်အောင်ပြောင်း)
+	-in js they don't know tags
+	-DOM tree
+-DOM (CRUD)
+	-C = create 
+		
+	-R = read
+		ရောက်သွားတဲ့ဒေတာကိုပြန်ကြည့်
+	-U = update
+		နှစ်ဆင့်သွား 
+	-D = delete

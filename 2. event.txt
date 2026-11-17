@@ -1,0 +1,13 @@
+*Event
+
+-event = functin
+-emiter, listener  
+-User က Website နဲ့ အပြန်အလှန်လုပ်ဆောင်တဲ့အခါ ဖြစ်ပေါ်လာတဲ့ လုပ်ဆောင်မှု
+	Clicking a button.
+	Typing something in an input.
+	Moving the mouse.
+	Scrolling a webpage.
+	Pressing a keyboard key.
+	Submitting a form.
+-syntax
+	element.addEventListener("event", function);

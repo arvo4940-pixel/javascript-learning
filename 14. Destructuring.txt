@@ -1,0 +1,50 @@
+*Destructuring 
+
+-JavaScript မှာ Array ဒါမှမဟုတ် Object ထဲမှာရှိတဲ့ data တွေကို Variable တွေထဲ အလွယ်တကူ ခွဲထုတ်ယူနိုင်တဲ့ နည်းလမ်း
+
+-1. array Destructuring [] အစဉ်လိုက်ယူ
+	-let fruits = ["Apple", "Banana", "Orange"];
+
+	 let fruit1 = fruits[0];
+	 let fruit2 = fruits[1];
+	 let fruit3 = fruits[2];
+
+	 console.log(fruit1);
+	 console.log(fruit2);
+	 console.log(fruit3);
+	 ___________
+	-let fruits = ["Apple", "Banana", "Orange"];
+
+	 let [fruit1, fruit2, fruit3] = fruits;
+
+	 console.log(fruit1);
+	 console.log(fruit2);
+	 console.log(fruit3);
+
+-2. Object Destructuring {} Key နာမည်နဲ့ယူ
+	-let person = {
+    	 name: "Aung Aung",
+   	 age: 20,
+   	 city: "Yangon"
+	 };
+
+	 let name = person.name;
+	 let age = person.age;
+	 let city = person.city;
+
+	 console.log(name);
+	 console.log(age);
+	 console.log(city);
+	 __________
+	-let person = {
+   	 name: "Aung Aung",
+   	 age: 20,
+   	 city: "Yangon"
+	 };
+
+	 let { name, age, city } = person;
+
+	 console.log(name);
+	 console.log(age);
+	 console.log(city);
+

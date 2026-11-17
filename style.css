@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #101827;
+    color: white;
+    min-height: 100vh;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 45px 15px;
+    background: linear-gradient(135deg, #172554, #312e81);
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+/* Main Container */
+
+.container {
+    max-width: 1000px;
+    margin: 45px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+/* Cards */
+
+.card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #334155;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    border-color: #818cf8;
+    box-shadow: 0 10px 30px #0005;
+}
+
+.card h2 {
+    color: #818cf8;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #cbd5e1;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    filter: brightness(1.2);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Result Area */
+
+.result {
+    background: #0f172a;
+    padding: 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+    min-height: 100px;
+    border-left: 4px solid #818cf8;
+}
+
+.result p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.result .success {
+    color: #4ade80;
+}
+
+.result .loading {
+    color: #facc15;
+}
+
+.result .error {
+    color: #f87171;
+}
+
+/* Loading Animation */
+
+.loader {
+    width: 22px;
+    height: 22px;
+    border: 3px solid #475569;
+    border-top-color: #818cf8;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    margin: 10px 0;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+}

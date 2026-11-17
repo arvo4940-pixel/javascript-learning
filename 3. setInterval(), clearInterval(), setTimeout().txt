@@ -1,0 +1,23 @@
+*setInterval(), clearInterval(), setTimeout()
+
+-Time-based Functions တွေဖြစ်ပါတယ်။ အချိန်နဲ့ပတ်သက်ပြီး JavaScript ကို အလုပ်လုပ်စေချင်တဲ့အခါသုံး
+
+-setInterval()	သတ်မှတ်ထားတဲ့အချိန်တိုင်း ထပ်ခါထပ်ခါ အလုပ်လုပ်တယ်။
+	-eg., 1 second တိုင်း နံပါတ်တစ်ခု တိုးမယ်။
+	      2 seconds တိုင်း စာသားတစ်ခု ပြောင်းမယ်။
+	      5 seconds တိုင်း ပုံတစ်ပုံ ပြောင်းမယ်။
+	-setInterval(function, time);
+		function = လုပ်ဆောင်စေချင်တဲ့ Code။
+		time = ဘယ်လောက်ကြာတိုင်း လုပ်ဆောင်မလဲ။
+		Time ကို Milliseconds (ms) နဲ့ သတ်မှတ်ရပါတယ်။
+
+-clearInterval()	setInterval() ကို ရပ်တန့်ပေးတယ်။
+	-clearInterval() ဆိုတာ setInterval() နဲ့ စတင်ထားတဲ့ ထပ်ခါထပ်ခါ အလုပ်လုပ်မှုကို ရပ်တန့်
+	-clearInterval(myTimer);
+
+-setTimeout()	သတ်မှတ်ထားတဲ့အချိန်တစ်ခုပြီးမှ တစ်ကြိမ်ပဲ အလုပ်လုပ်တယ်။
+	-setTimeout() ဆိုတာ သတ်မှတ်ထားတဲ့အချိန်တစ်ခုပြီးမှ Function ကို တစ်ကြိမ်ပဲ လုပ်ဆောင်စေတဲ့ Method
+	-setTimeout(function, time);
+
+-clearTimeout() က setTimeout() ကို အချိန်မပြည့်ခင် ဖျက်သိမ်းပေး
+	-clearTimeout(myTimer);
