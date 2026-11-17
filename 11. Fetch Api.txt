@@ -1,7 +1,0 @@
-*Fetch Api (Application Programing Interface)
-
--ကြားခံဆက်သွယ်ပေး
--Fetch API = Server ဆီက Data ယူခြင်း၊ Server ဆီ Data ပို့ခြင်း
--crud ကို run ပေး
-
--fatch ()

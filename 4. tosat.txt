@@ -1,9 +1,0 @@
-*Toast
-
--User ကို အကြောင်းကြားဖို့ ခဏတာပေါ်လာတဲ့ Notification
--success (green)
- error   (red)
- warning (orange)
- info    (blue) 
-
--

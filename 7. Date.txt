@@ -1,9 +1,0 @@
-*date
-
--Date() = string
- new_Date() =object
- getDay()
- getMonth()
- getFullYear()
- getTime() = count from 1 jan 1970
- 
